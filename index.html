@@ -2,13 +2,14 @@
 <head>
     <title>Reporting</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script data-main="main.js" src="./scripts/require.js"></script>
 </head>
 <body>
 
 <article class="main page">
     <div class="container">
-        <h1>Need for someting</h1>
+        <h1>Title</h1>
 
         <section class="main-indicators">
             <div class="container">
@@ -47,24 +48,24 @@
         </section>
 
 
+        <section class="big-news">
+            <h3>Big last done</h3>
+            <ul>
+            </ul>
+        </section>
+
+
         <section class="risks">
             <table>
                 <tbody>
                     <tr>
-                        <th class="name">       Risk       </th>
-                        <th class="probability">Probability</th>
-                        <th class="gravity">    Impact     </th>
-                        <th class="solution">   Solution   </th>
+                        <th class="name">       Risk     </th>
+                        <th class="probability">Prob.    </th>
+                        <th class="gravity">    Imp.     </th>
+                        <th class="solution">   Solution </th>
                     </tr>
                 </tbody>
             </table>
-        </section>
-
-
-        <section class="big-news">
-            <h3>Big news</h3>
-            <ul>
-            </ul>
         </section>
 
 
@@ -82,13 +83,17 @@
 
 
 <article class="page burndown">
-    <h1>Burndown</h1>
+    <h1>Project Burndown</h1>
     <svg id="visualisation" class="chart"></svg>
 </article>
 
 
 <article class="page job model">
     <h1>Job</h1>
+    <section class="indicators">
+        <div class="indicator">
+        </div>
+    </section>
     <section class="tasks">
         <div class="container model">
             <div class="background">
@@ -99,10 +104,6 @@
             </div>
             <div class="indicator">
             </div>
-        </div>
-    </section>
-    <section class="indicators">
-        <div class="indicator">
         </div>
     </section>
 </article>

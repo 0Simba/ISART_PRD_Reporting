@@ -3,7 +3,7 @@ define([
     'use strict';
 
     return {
-        projectName    : 'FLY',
+        projectName    : 'CoopSacr',
         reportIndex    : '2 - millieu',
         reportDay      : new Date(2016, 10, 14),
         sprintDuration : 14,
@@ -56,59 +56,57 @@ define([
 
         main: {
             bigNews : [
-                'Lotus Car added !',
-                'Main speedway is finished !',
-                'Toto join the team !'
+                'Three networked player'
             ],
 
             indicators : {
                 global   : 'meh',
                 morals   : 'good',
-                quality  : 'bad',
-                planning : 'good'
+                quality  : 'good',
+                planning : 'meh'
             },
 
             tasks : [
                 {
-                    name       : 'Car modelisation',
+                    name       : 'Proto 3C',
+                    completion : 0.1,
+                    indicator  : 'meh'
+                },
+                {
+                    name       : 'Proto graphique',
                     completion : 0.2,
                     indicator  : 'meh'
                 },
                 {
-                    name       : 'Physics engine',
-                    completion : 0.8,
-                    indicator  : 'bad'
-                },
-                {
-                    name       : 'GDD',
-                    completion : 0.365,
+                    name       : 'Game design documentation',
+                    completion : 0.4,
                     indicator  : 'good'
                 },
                 {
-                    name       : 'TDD',
-                    completion : 0.98,
-                    indicator  : 'good'
+                    name       : 'Sounds placeholders',
+                    completion : 0,
+                    indicator  : 'meh'
                 }
             ],
 
             risks : [
                 {
-                    name        : 'Hard controls',
-                    probability : 3,
-                    gravity     : 10,
-                    solution    : 'Set lot of time on it'
+                    name        : 'Network',
+                    probability : 5,
+                    gravity     : 4,
+                    solution    : 'Use UE template. Minimize features which impact network'
                 },
                 {
-                    name        : 'Speedway create lags',
-                    probability : 1,
-                    gravity     : 8,
-                    solution    : 'Optimize each assets'
+                    name        : 'Git + unreal',
+                    probability : 4,
+                    gravity     : 4,
+                    solution    : 'Establish process. Verify everyone respect these process'
                 },
                 {
-                    name        : 'Bad collisions',
-                    probability : 8,
-                    gravity     : 3,
-                    solution    : 'Allow time to recreate a collision engine'
+                    name        : 'Graphic optimization',
+                    probability : 4,
+                    gravity     : 4,
+                    solution    : 'Pipeline anticipation'
                 }
             ]
         },
