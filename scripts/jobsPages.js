@@ -19,6 +19,7 @@ define([
         setPageTitle($page, data)
         addTasks($page, data.tasks)
         addIndicators($page, data.indicators)
+        setDecorationImage($page, data)
     }
 
 
@@ -35,11 +36,11 @@ define([
     /*==================================
     =            Indicators            =
     ==================================*/
-    
+
     function addIndicators ($page, data) {
         $page.find('.indicators .indicator').addClass(data.global)
     }
-    
+
 
 
 
@@ -47,12 +48,22 @@ define([
     /*==============================
     =            Header            =
     ==============================*/
-    
 
     function setPageTitle ($page, data) {
         $page.find('>h1').html(data.title)
     }
 
+
+
+
+
+    /*========================================
+    =            Decoration image            =
+    ========================================*/
+
+    function setDecorationImage ($page, data) {
+        $page.find('img.decoration').attr('src', data.decorationImage)
+    }
 
 
 

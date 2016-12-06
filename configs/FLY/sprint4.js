@@ -139,7 +139,8 @@ define([
                         completion : 0.33,
                         indicator  : 'good'
                     }
-                ]
+                ],
+                decorationImage: './images/placeholders/gameart.jpg'
             },
             {
                 title : 'Programmers',
@@ -167,7 +168,8 @@ define([
                         completion : 0.33,
                         indicator  : 'good'
                     }
-                ]
+                ],
+                decorationImage: './images/placeholders/programming.jpg'
             },
             {
                 title : 'Game Designer',
@@ -195,7 +197,8 @@ define([
                         completion : 0.33,
                         indicator  : 'good'
                     }
-                ]
+                ],
+                decorationImage: './images/placeholders/gamedesign.jpg'
             },
             {
                 title : 'Sound Designers',
@@ -223,7 +226,8 @@ define([
                         completion : 0.33,
                         indicator  : 'good'
                     }
-                ]
+                ],
+                decorationImage: './images/placeholders/sounddesign.jpg'
             }
         ]
     }
