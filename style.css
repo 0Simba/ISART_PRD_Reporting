@@ -7,20 +7,19 @@ html, body {
 
 .page {
     margin          : auto auto;
-    width           : 1200px;
-    height          : 849px;
+    width           : 1260px;
+    height          : 891px;
     overflow        : hidden;
     position        : relative;
 }
 
 
 .page>.container {
-    padding : 30px;
     margin  : auto;
-    width   : 1140px;
-    height  : 615px;
+    width   : 1200px;
+    height  : 675px;
+    padding : 30px;
     position: relative;
-    margin-top: calc((849px - 675px) / 2);
 }
 
 
@@ -192,7 +191,7 @@ h1 {
 .big-news {
     clear       : both;
     width       : 31%;
-    padding     : 0 2%;
+    padding     : 0 4% 0 0;
     font-size   : 1.5em;
     margin-top  : 10px;
 }
@@ -218,8 +217,8 @@ h1 {
 
 
 .main .tasks {
-    width      : 40%;
-    margin-left: 10%;
+    width      : 44%;
+    margin-left: 6%;
 }
 
 
@@ -228,7 +227,7 @@ h1 {
     height     : 50px;
     line-height: 50px;
     position   : relative;
-    margin     : 5px;
+    margin     : 5px 0;
 }
 
 
@@ -317,11 +316,11 @@ h1 {
 
 
 .calendar {
-    width   : 90%;
+    width   : 86%;
     height  : 90px;
     position: absolute;
-    bottom  : 0;
-    margin  : 0 5%;
+    bottom  : 20px;
+    left    : 7%;
 }
 
 .calendar .container {
