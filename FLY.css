@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family: "play";
+    src: url('fonts/Play-Regular.ttf');
+}
+
+html .page {
+    background: url('./images/FLY/background2.png');
+    background-size: 100% 100%;
+    font-family: "play", "Trebuchet MS", Helvetica, sans-serif;
+}
+
+html body {
+    background-color: black;
+}
+
+
+.job .tasks {
+    font-size: 0.8em;
+}
