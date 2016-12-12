@@ -40,7 +40,7 @@ define([
 
 
         burndown : {
-            totalPoints : 602,
+            totalPoints : 812,
             states : [
                 {
                     date       : new Date(2016, 9, 17),
@@ -49,6 +49,10 @@ define([
                 {
                     date       : new Date(2016, 11, 6),
                     donePoints : 120
+                },
+                {
+                    date       : new Date(2016, 11, 12),
+                    donePoints : 252
                 }
             ]
         },
@@ -63,7 +67,7 @@ define([
                 global   : 'good',
                 morals   : 'good',
                 quality  : 'good',
-                planning : 'meh'
+                planning : 'good'
             },
 
             tasks : [
