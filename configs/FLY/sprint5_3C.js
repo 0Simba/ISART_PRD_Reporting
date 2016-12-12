@@ -5,7 +5,7 @@ define([
     return {
         projectName    : 'FLY',
         reportIndex    : '5 - 3C',
-        reportDay      : new Date(2016, 11, 6),
+        reportDay      : new Date(2016, 11, 15),
         sprintDuration : 14,
         calendar       : [
             {
@@ -52,7 +52,11 @@ define([
                 },
                 {
                     date       : new Date(2016, 11, 6),
-                    donePoints : 45
+                    donePoints : 35
+                },
+                {
+                    date       : new Date(2016, 11, 12),
+                    donePoints : 35
                 }
             ]
         },
@@ -67,7 +71,7 @@ define([
             indicators : {
                 global   : 'meh',
                 morals   : 'meh',
-                quality  : 'good',
+                quality  : 'meh',
                 planning : 'bad'
             },
 
@@ -127,7 +131,7 @@ define([
                     {
                         name       : 'Boss parts concepts',
                         completion : 0.2,
-                        indicator  : 'meh'
+                        indicator  : 'bad'
                     },
                     {
                         name       : 'Plane',
@@ -135,14 +139,14 @@ define([
                         indicator  : 'good'
                     },
                     {
-                        name       : 'Probs',
+                        name       : 'Props',
                         completion : 0.15,
                         indicator  : 'good'
                     },
                     {
                         name       : 'UI',
-                        completion : 0,
-                        indicator  : 'meh'
+                        completion : 0.2,
+                        indicator  : 'good'
                     }
                 ],
                 decorationImage: './images/placeholders/gameart.jpg'
@@ -154,17 +158,17 @@ define([
                 },
                 tasks : [
                     {
-                        name       : 'Plane controls',
-                        completion : 0.2,
+                        name       : 'Player controler',
+                        completion : 0.33,
                         indicator  : 'meh'
                     },
                     {
                         name       : 'Camera\'s systems',
-                        completion : 0.2,
-                        indicator  : 'meh'
+                        completion : 0,
+                        indicator  : 'bad'
                     },
                     {
-                        name       : 'World interaction',
+                        name       : 'Boss boot strape',
                         completion : 0,
                         indicator  : 'bad'
                     },
@@ -179,28 +183,28 @@ define([
             {
                 title : 'Game Designer',
                 indicators: {
-                    global : 'meh'
+                    global : 'bad'
                 },
                 tasks : [
                     {
-                        name       : 'Boss/plane interactions',
-                        completion : 0.1,
+                        name       : 'Boss phases/behaviors',
+                        completion : 0.8,
                         indicator  : 'meh'
                     },
                     {
-                        name       : 'Defining boss behaviors',
-                        completion : 0.05,
+                        name       : 'Gameflow',
+                        completion : 0.9,
                         indicator  : 'good'
                     },
                     {
                         name       : 'Plane settings',
-                        completion : 0.1,
+                        completion : 0.05,
                         indicator  : 'bad'
                     },
                     {
                         name       : 'Camera settings',
-                        completion : 0.33,
-                        indicator  : 'good'
+                        completion : 0.7,
+                        indicator  : 'meh'
                     }
                 ],
                 decorationImage: './images/placeholders/gamedesign.jpg'
