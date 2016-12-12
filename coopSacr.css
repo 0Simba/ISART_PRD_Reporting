@@ -1,0 +1,15 @@
+
+html .page {
+    background: url('./images/Coopsacr/fake.png');
+    background-size: 100% 100%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+html body {
+    background-color: black;
+}
+
+
+.job .tasks {
+    font-size: 1em;
+}
