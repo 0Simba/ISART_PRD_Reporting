@@ -4,7 +4,7 @@
     src: url('fonts/Play-Regular.ttf');
 }
 
-html .page {
+html .page>.container {
     background: url('./images/FLY/background2.png');
     background-size: 100% 100%;
     font-family: "play", "Trebuchet MS", Helvetica, sans-serif;
@@ -17,4 +17,41 @@ html body {
 
 .job .tasks {
     font-size: 0.8em;
+}
+
+.indicator.bad {
+	background-image : url('images/FLY/bad.png');
+}
+
+.indicator.meh {
+	background-image : url('images/FLY/meh.png');
+}
+.indicator.good {
+	background-image : url('images/FLY/good.png');
+}
+
+.tasks .indicator.bad {
+    background-image: url('images/FLY/time_bad.png');
+}
+
+.tasks .indicator.meh {
+    background-image: url('images/FLY/time_meh.png');
+}
+
+.tasks .indicator.good {
+    background-image: url('images/FLY/time_good.png');
+}
+
+.job .tasks .container .indicator {
+    width  : 78px;
+    height : 78px;
+    margin : 1px 5px;
+}
+
+.tasks .container .indicator {
+    position : absolute;
+    width    : 48px;
+    height   : 48px;
+    left     : 1px;
+    top      : 1px;
 }
