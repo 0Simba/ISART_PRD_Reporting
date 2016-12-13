@@ -5,7 +5,7 @@
 }
 
 html .page>.container {
-    background: url('./images/FLY/background2.png');
+    background: url('./images/FLY/background.jpg');
     background-size: 100% 100%;
     font-family: "play", "Trebuchet MS", Helvetica, sans-serif;
 }
@@ -26,6 +26,7 @@ html body {
 .indicator.meh {
 	background-image : url('images/FLY/meh.png');
 }
+
 .indicator.good {
 	background-image : url('images/FLY/good.png');
 }
