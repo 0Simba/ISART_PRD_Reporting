@@ -6,20 +6,21 @@ html, body {
 
 
 .page {
-    margin          : auto auto;
-    width           : 1260px;
-    height          : 891px;
-    overflow        : hidden;
-    position        : relative;
+    margin   : auto auto;
+    width    : 1260px;
+    height   : 891px;
+    overflow : hidden;
+    position : relative;
 }
 
 
 .page>.container {
-    margin  : auto;
-    width   : 1200px;
-    height  : 675px;
-    padding : 30px;
-    position: relative;
+    margin     : auto;
+    width      : 1200px;
+    height     : 675px;
+    padding    : 30px;
+    position   : relative;
+    margin-top : 78px;
 }
 
 
