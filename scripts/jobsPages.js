@@ -50,7 +50,7 @@ define([
     ==============================*/
 
     function setPageTitle ($page, data) {
-        $page.find('>h1').html(data.title)
+        $page.find('>.container>h1').html(data.title)
     }
 
 
