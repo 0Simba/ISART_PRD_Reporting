@@ -124,23 +124,23 @@ define([
                 },
                 tasks : [
                     {
-                        name       : 'Hero modelisation',
-                        completion : 0.5,
-                        indicator  : 'meh'
+                        name       : 'Hero',
+                        completion : 0.15,
+                        indicator  : 'good'
                     },
                     {
-                        name       : 'Probs',
-                        completion : 0.0,
+                        name       : 'Environements',
+                        completion : 0.1,
+                        indicator  : 'bad'
+                    },
+                    {
+                        name       : 'UI',
+                        completion : 0.05,
                         indicator  : 'meh'
                     },
                     {
                         name       : 'Enemies',
-                        completion : 0,
-                        indicator  : 'meh'
-                    },
-                    {
-                        name       : 'UI',
-                        completion : 0,
+                        completion : 0.01,
                         indicator  : 'meh'
                     }
                 ],
@@ -154,22 +154,22 @@ define([
                 tasks : [
                     {
                         name       : 'Hero behaviors',
-                        completion : 0.8,
-                        indicator  : 'good'
+                        completion : 0.5,
+                        indicator  : 'meh'
                     },
                     {
                         name       : 'Camera',
-                        completion : 0.8,
-                        indicator  : 'good'
+                        completion : 0.1,
+                        indicator  : 'bad'
                     },
                     {
                         name       : 'Network',
-                        completion : 0.4,
+                        completion : 0.8, //0.6
                         indicator  : 'good'
                     },
                     {
                         name       : 'Gameflow',
-                        completion : 0.4,
+                        completion : 0.5,
                         indicator  : 'good'
                     }
                 ],
@@ -183,17 +183,17 @@ define([
                 tasks : [
                     {
                         name       : 'Story boards',
-                        completion : 0.6,
+                        completion : 0.45,
                         indicator  : 'good'
                     },
                     {
                         name       : 'Sacrifice mechanics',
-                        completion : 0.8,
-                        indicator  : 'good'
+                        completion : 0.4,
+                        indicator  : 'meh'
                     },
                     {
                         name       : 'Sacrifice justifications',
-                        completion : 0.6,
+                        completion : 0.7,
                         indicator  : 'meh'
                     },
                     {

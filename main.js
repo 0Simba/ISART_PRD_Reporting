@@ -49,6 +49,6 @@ define([
 
 
     function setMainTitle () {
-        $('.main .container>h1').html(config.projectName + ' - Reporting #' + config.reportIndex)
+        $('.main .container>h1').html(config.projectName + ' - sprint #' + config.reportIndex)
     }
 })
