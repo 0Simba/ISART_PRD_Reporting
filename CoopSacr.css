@@ -1,6 +1,6 @@
 
 html .page>.container {
-    background: url('./images/Coopsacr/fake.png');
+    background: url('./images/Coopsacr/background.jpg');
     background-size: 100% 100%;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
@@ -13,3 +13,24 @@ html body {
 .job .tasks {
     font-size: 0.8em;
 }
+
+
+.tasks .container .background {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.tasks .container .fill {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+.risks tr th {
+    background-color: rgba(255, 255, 255, 0.7)
+}
+
+
+.risks tr td {
+    background-color: rgba(255, 255, 255, 0.4)
+}
+

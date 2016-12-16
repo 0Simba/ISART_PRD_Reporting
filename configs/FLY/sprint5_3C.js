@@ -101,20 +101,20 @@ define([
             risks : [
                 {
                     name        : 'Plane and monster not well polished',
-                    probability : 4,
-                    gravity     : 5,
+                    probability : 'Very high',
+                    gravity     : 'Very high',
                     solution    : 'Allow very high time on polish, minimize features quantities'
                 },
                 {
                     name        : 'Boss size',
-                    probability : 5,
-                    gravity     : 3,
+                    probability : 'Very high',
+                    gravity     : 'Medium',
                     solution    : 'Cut boss in multiple part'
                 },
                 {
                     name        : 'Iteration on complexity',
-                    probability : 3,
-                    gravity     : 5,
+                    probability : 'Medium',
+                    gravity     : 'Very High',
                     solution    : 'Features specification : ASAP, and clear as possible'
                 }
             ]
@@ -208,7 +208,7 @@ define([
                     }
                 ],
                 decorationImage: './images/placeholders/gamedesign.jpg'
-            },
+            }/*,
             {
                 title : 'Sound Designers',
                 indicators: {
@@ -237,7 +237,7 @@ define([
                     }
                 ],
                 decorationImage: './images/placeholders/sounddesign.jpg'
-            }
+            }*/
         ]
     }
 });

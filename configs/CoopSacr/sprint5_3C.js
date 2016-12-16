@@ -53,6 +53,10 @@ define([
                 {
                     date       : new Date(2016, 11, 12),
                     donePoints : 252
+                },
+                {
+                    date       : new Date(2016, 11, 16),
+                    donePoints : 270
                 }
             ]
         },
@@ -60,56 +64,59 @@ define([
 
         main: {
             bigNews : [
-                "Camera is finished"
+                "Lobby works",
+                "Player network OK",
+                "Garden nearly completed",
+                "Paper level design nearly completed"
             ],
 
             indicators : {
                 global   : 'good',
                 morals   : 'good',
                 quality  : 'good',
-                planning : 'good'
+                planning : 'meh'
             },
 
             tasks : [
                 {
-                    name       : 'Heros',
-                    completion : 0.15,
+                    name       : 'Hero',
+                    completion : 0.25,
                     indicator  : 'good'
                 },
                 {
-                    name       : 'Ennemies',
-                    completion : 0.05,
+                    name       : 'Enemies',
+                    completion : 0.01,
                     indicator  : 'meh'
                 },
                 {
                     name       : 'Level and universe',
-                    completion : 0.05,
+                    completion : 0.2,
                     indicator  : 'meh'
                 },
                 {
                     name       : 'Gameflow',
-                    completion : 0.01,
-                    indicator  : 'bad'
+                    completion : 0.30,
+                    indicator  : 'meh'
                 }
             ],
 
             risks : [
                 {
                     name        : 'Network',
-                    probability : 5,
-                    gravity     : 4,
+                    probability : 'Very high',
+                    gravity     : 'High',
                     solution    : 'Use UE template. Minimize features which impact network'
                 },
                 {
                     name        : 'Git + unreal',
-                    probability : 4,
-                    gravity     : 4,
+                    probability : "High",
+                    gravity     : "High",
                     solution    : 'Establish process. Verify everyone respect these process'
                 },
                 {
                     name        : 'Graphic optimization',
-                    probability : 4,
-                    gravity     : 4,
+                    probability : "High",
+                    gravity     : "High",
                     solution    : 'Pipeline anticipation'
                 }
             ]
@@ -129,22 +136,22 @@ define([
                         indicator  : 'good'
                     },
                     {
-                        name       : 'Environements',
-                        completion : 0.1,
-                        indicator  : 'bad'
+                        name       : 'Environments',
+                        completion : 0.15,
+                        indicator  : 'meh'
                     },
                     {
                         name       : 'UI',
-                        completion : 0.05,
+                        completion : 0.07,
                         indicator  : 'meh'
                     },
                     {
                         name       : 'Enemies',
-                        completion : 0.01,
+                        completion : 0.02,
                         indicator  : 'meh'
                     }
                 ],
-                decorationImage: './images/placeholders/gameart.jpg'
+                decorationImage: './images/Coopsacr/art3C.jpg'
             },
             {
                 title : 'Programmers',
@@ -159,7 +166,7 @@ define([
                     },
                     {
                         name       : 'Camera',
-                        completion : 0.1,
+                        completion : 0.25,
                         indicator  : 'bad'
                     },
                     {
@@ -173,7 +180,7 @@ define([
                         indicator  : 'good'
                     }
                 ],
-                decorationImage: './images/placeholders/programming.jpg'
+                decorationImage: './images/coopsacr/prog3C.png'
             },
             {
                 title : 'Game Designer',
@@ -202,8 +209,8 @@ define([
                         indicator  : 'meh'
                     }
                 ],
-                decorationImage: './images/placeholders/gamedesign.jpg'
-            },
+                decorationImage: './images/Coopsacr/gd3C.png'
+            }/*,
             {
                 title : 'Sound Designers',
                 indicators: {
@@ -232,7 +239,7 @@ define([
                     }
                 ],
                 decorationImage: './images/placeholders/sounddesign.jpg'
-            }
+            }*/
         ]
     }
 });
