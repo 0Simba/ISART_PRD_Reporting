@@ -5,7 +5,7 @@ define([
     return {
         projectName    : 'FLY',
         reportIndex    : '5 - 3C',
-        reportDay      : new Date(2016, 11, 15),
+        reportDay      : new Date(2016, 11, 16),
         sprintDuration : 14,
         calendar       : [
             {
@@ -57,6 +57,10 @@ define([
                 {
                     date       : new Date(2016, 11, 12),
                     donePoints : 35
+                },
+                {
+                    date       : new Date(2016, 11, 16),
+                    donePoints : 87
                 }
             ]
         },
@@ -64,8 +68,7 @@ define([
 
         main: {
             bigNews : [
-                'Boss defined',
-                'Plane modelisation finished'
+                'Canyon finished'
             ],
 
             indicators : {
@@ -130,8 +133,8 @@ define([
                 tasks : [
                     {
                         name       : 'Boss parts concepts',
-                        completion : 0.2,
-                        indicator  : 'bad'
+                        completion : 0.35,
+                        indicator  : 'meh'
                     },
                     {
                         name       : 'Plane',
@@ -149,7 +152,7 @@ define([
                         indicator  : 'good'
                     }
                 ],
-                decorationImage: './images/placeholders/gameart.jpg'
+                decorationImage: './images/FLY/3C/art.png'
             },
             {
                 title : 'Programmers',
@@ -159,26 +162,26 @@ define([
                 tasks : [
                     {
                         name       : 'Player controler',
-                        completion : 0.33,
-                        indicator  : 'meh'
+                        completion : 0.5,
+                        indicator  : 'good'
                     },
                     {
                         name       : 'Camera\'s systems',
-                        completion : 0,
-                        indicator  : 'bad'
+                        completion : 0.5,
+                        indicator  : 'meh'
                     },
                     {
-                        name       : 'Boss boot strape',
+                        name       : 'Boss bootstrap',
                         completion : 0,
                         indicator  : 'bad'
                     },
                     {
                         name       : 'Gameflow',
-                        completion : 0,
+                        completion : 0.1,
                         indicator  : 'meh'
                     }
                 ],
-                decorationImage: './images/placeholders/programming.jpg'
+                decorationImage: './images/FLY/3C/prog.png'
             },
             {
                 title : 'Game Designer',
@@ -198,7 +201,7 @@ define([
                     },
                     {
                         name       : 'Plane settings',
-                        completion : 0.05,
+                        completion : 0.25,
                         indicator  : 'bad'
                     },
                     {
@@ -207,7 +210,7 @@ define([
                         indicator  : 'meh'
                     }
                 ],
-                decorationImage: './images/placeholders/gamedesign.jpg'
+                decorationImage: './images/FLY/3C/GD.png'
             }/*,
             {
                 title : 'Sound Designers',

@@ -1,4 +1,8 @@
 
+html body {
+    background-color: black;
+}
+
 @font-face {
     font-family: "play";
     src: url('fonts/Play-Regular.ttf');
