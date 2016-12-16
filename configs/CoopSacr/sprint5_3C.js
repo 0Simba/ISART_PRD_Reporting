@@ -180,7 +180,7 @@ define([
                         indicator  : 'good'
                     }
                 ],
-                decorationImage: './images/coopsacr/prog3C.png'
+                decorationImage: './images/Coopsacr/prog3C.png'
             },
             {
                 title : 'Game Designer',
