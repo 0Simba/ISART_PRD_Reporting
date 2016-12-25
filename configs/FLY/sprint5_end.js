@@ -72,7 +72,7 @@ define([
 
         main: {
             bigNews : [
-                "Facebook page created"
+                "Facebook page"
             ],
 
             indicators : {
