@@ -4,7 +4,7 @@ define([
 
     return {
         projectName    : 'Coopsacr',
-        reportIndex    : '6, half',
+        reportIndex    : '6 to 7',
         reportDay      : new Date(2017, 0, 9),
         sprintDuration : 14,
         calendar       : [
