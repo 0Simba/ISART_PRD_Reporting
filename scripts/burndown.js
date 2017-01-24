@@ -220,7 +220,7 @@ define([
         addIdealLine()
         addLine(lineDataActual, 'actual')
         addAbcissText('Elapsed days')
-        addOrdinateText('Rest scrum points')
+        addOrdinateText('Rest in percent')
     }
 
 })
