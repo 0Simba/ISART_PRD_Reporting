@@ -84,9 +84,6 @@ define([
 
         main: {
             bigNews : [
-                'Hero skinnning finished',
-                'Sacrifice justifications finished',
-                'Three new game artist'
             ],
 
             indicators : {
