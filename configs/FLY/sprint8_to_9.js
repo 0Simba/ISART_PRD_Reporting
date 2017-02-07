@@ -108,22 +108,22 @@ define([
             tasks : [
                 {
                     name       : 'Titanic boss',
-                    completion : 0.25,
+                    completion : 0.37,
                     indicator  : 'meh'
                 },
                 {
                     name       : 'Camera',
-                    completion : 0.4,
-                    indicator  : 'good'
+                    completion : 0.6,
+                    indicator  : 'bad'
                 },
                 {
                     name       : 'Level design',
-                    completion : 0.2,
-                    indicator  : 'good'
+                    completion : 0.23,
+                    indicator  : 'bad'
                 },
                 {
                     name       : 'plane',
-                    completion : 0.4,
+                    completion : 0.53,
                     indicator  : 'bad'
                 }
             ],
