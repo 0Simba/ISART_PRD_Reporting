@@ -3,9 +3,9 @@ define([
     'use strict';
 
     return {
-        projectName    : 'Coopsacr',
-        reportIndex    : '9 - half',
-        reportDay      : new Date(2017, 1, 13),
+        projectName    : 'FLY',
+        reportIndex    : '9 to 10',
+        reportDay      : new Date(2017, 1, 20),
         sprintDuration : 14,
         calendar       : [
             {
@@ -35,7 +35,7 @@ define([
             {
                 day:  new Date(2017, 5, 16),
                 name: 'Jury'
-            }
+            },
         ],
 
 
@@ -47,48 +47,56 @@ define([
                     donePoints : 0
                 },
                 {
+                    date       : new Date(2016, 10, 28),
+                    donePoints : 6.6
+                },
+                {
                     date       : new Date(2016, 11, 6),
-                    donePoints : 14.2
+                    donePoints : 6.6
                 },
                 {
                     date       : new Date(2016, 11, 12),
-                    donePoints : 29.9
+                    donePoints : 6.6
                 },
                 {
                     date       : new Date(2016, 11, 16),
-                    donePoints : 32.0
+                    donePoints : 16.5
                 },
                 {
                     date       : new Date(2016, 11, 25),
-                    donePoints : 33.2
+                    donePoints : 16.5
                 },
                 {
                     date       : new Date(2017, 0, 1),
-                    donePoints : 33.2
+                    donePoints : 17.1
                 },
                 {
                     date       : new Date(2017, 0, 9),
-                    donePoints : 36.4
+                    donePoints : 25.2
                 },
                 {
                     date       : new Date(2017, 0, 15),
-                    donePoints : 29.3
+                    donePoints : 28.5
+                },
+                {
+                    date       : new Date(2017, 0, 24),
+                    donePoints : 25.7
                 },
                 {
                     date       : new Date(2017, 0, 30),
-                    donePoints : 29.3
+                    donePoints : 25.7
                 },
                 {
                     date       : new Date(2017, 1, 6),
-                    donePoints : 30.7
-                },
-                {
-                    date       : new Date(2017, 1, 8),
-                    donePoints : 35
+                    donePoints : 31.4
                 },
                 {
                     date       : new Date(2017, 1, 13),
-                    donePoints : 37.9
+                    donePoints : 38.6
+                },
+                {
+                    date       : new Date(2017, 1, 20),
+                    donePoints : 41.4
                 }
             ]
         },
@@ -96,56 +104,57 @@ define([
 
         main: {
             bigNews : [
+                "Plane graphic finished"
             ],
 
             indicators : {
-                global   : 'good',
-                morals   : 'good',
-                quality  : 'good',
+                global   : 'meh',
+                morals   : 'meh',
+                quality  : 'meh',
                 planning : 'bad'
             },
 
             tasks : [
                 {
-                    name       : 'Hero',
-                    completion : 0.65,
-                    indicator  : 'good'
-                },
-                {
-                    name       : 'Enemies',
-                    completion : 0.30,
-                    indicator  : 'meh'
-                },
-                {
-                    name       : 'Level design',
-                    completion : 0.5,
+                    name       : 'Titanic boss',
+                    completion : 0.46,
                     indicator  : 'meh'
                 },
                 {
                     name       : 'Camera',
-                    completion : 0.55,
+                    completion : 0.95,
                     indicator  : 'meh'
+                },
+                {
+                    name       : 'Level design',
+                    completion : 0.35,
+                    indicator  : 'bad'
+                },
+                {
+                    name       : 'plane',
+                    completion : 0.6,
+                    indicator  : 'bad'
                 }
             ],
 
             risks : [
                 {
-                    name        : 'Network',
+                    name        : 'Plane and monster not well polished',
                     probability : 'Very high',
-                    gravity     : 'High',
-                    solution    : 'Use UE template. Minimize features which impact network'
+                    gravity     : 'Very high',
+                    solution    : 'Allow very high time on polish, minimize features quantities'
                 },
                 {
-                    name        : 'Git + unreal',
-                    probability : "High",
-                    gravity     : "High",
-                    solution    : 'Establish process. Verify everyone respect these process'
+                    name        : 'Iteration on complexity',
+                    probability : 'High',
+                    gravity     : 'Very High',
+                    solution    : 'Features specification : ASAP, and clear as possible'
                 },
                 {
-                    name        : 'Graphic optimization',
-                    probability : "High",
-                    gravity     : "High",
-                    solution    : 'Pipeline anticipation'
+                    name        : 'Boss size',
+                    probability : 'High',
+                    gravity     : 'Medium',
+                    solution    : 'Cut boss in multiple part'
                 }
             ]
         },
@@ -159,56 +168,56 @@ define([
                 },
                 tasks : [
                     {
-                        name       : 'Hero animations',
-                        completion : 0.80,
+                        name       : 'Boss Modelisation',
+                        completion : 0.7,
                         indicator  : 'meh'
                     },
                     {
-                        name       : 'Dog Enemies concept',
+                        name       : 'Plane',
                         completion : 1,
                         indicator  : 'good'
                     },
                     {
-                        name       : 'Humanoid enemies modelisation',
-                        completion : 0.90,
-                        indicator  : 'good'
+                        name       : 'Environnement',
+                        completion : 0.4,
+                        indicator  : 'meh'
                     },
                     {
-                        name       : 'Garden environments',
-                        completion : 0.8,
+                        name       : 'UI',
+                        completion : 0.2,
                         indicator  : 'good'
                     }
                 ],
-                decorationImage: './images/Coopsacr/art8to9.jpg'
+                decorationImage: './images/FLY/graph10.png'
             },
             {
                 title : 'Programmers',
                 indicators: {
-                    global : 'good'
+                    global : 'meh'
                 },
                 tasks : [
                     {
-                        name       : 'Hero behaviors',
-                        completion : 0.80,
-                        indicator  : 'meh'
-                    },
-                    {
-                        name       : 'Camera',
-                        completion : 0.75,
-                        indicator  : 'meh'
-                    },
-                    {
-                        name       : 'Network',
-                        completion : 0.75,
+                        name       : 'Player controler',
+                        completion : 1,
                         indicator  : 'good'
+                    },
+                    {
+                        name       : 'Camera\'s systems',
+                        completion : 0.75,
+                        indicator  : 'meh'
+                    },
+                    {
+                        name       : 'Boss behaviors',
+                        completion : 0.33,
+                        indicator  : 'bad'
                     },
                     {
                         name       : 'Gameflow',
-                        completion : 0.90,
-                        indicator  : 'good'
+                        completion : 0.7,
+                        indicator  : 'meh'
                     }
                 ],
-                decorationImage: './images/Coopsacr/prog6to7.png'
+                decorationImage: './images/FLY/3C/prog.png'
             },
             {
                 title : 'Game Designer',
@@ -217,56 +226,56 @@ define([
                 },
                 tasks : [
                     {
-                        name       : 'Scenarisation',
-                        completion : 0,
+                        name       : 'Tests boss phases',
+                        completion : 0.1,
                         indicator  : 'meh'
                     },
                     {
-                        name       : 'Sacrifice mechanics',
-                        completion : 1,
-                        indicator  : 'good'
-                    },
-                    {
-                        name       : 'Sacrifice justifications',
-                        completion : 1,
-                        indicator  : 'good'
-                    },
-                    {
-                        name       : 'V3 Level design in UE',
-                        completion : 0.2,
-                        indicator  : 'meh'
-                    }
-                ],
-                decorationImage: './images/Coopsacr/gd8to9.png'
-            },
-            {
-                title : 'Sound Designers',
-                indicators: {
-                    global : 'meh'
-                },
-                tasks : [
-                    {
-                        name       : 'Wwise integration',
-                        completion : 0.7,
-                        indicator  : 'good'
-                    },
-                    {
-                        name       : 'Musics',
-                        completion : 0.25,
-                        indicator  : 'bad'
-                    },
-                    {
-                        name       : 'Sounds effects',
+                        name       : 'Gamefeel',
                         completion : 0.05,
                         indicator  : 'meh'
                     },
                     {
-                        name       : 'Voice over',
-                        completion : 0.0,
-                        indicator  : '-'
+                        name       : 'Plane settings & tests',
+                        completion : 0.8,
+                        indicator  : 'meh'
+                    },
+                    {
+                        name       : 'Camera settings & tests',
+                        completion : 0.5,
+                        indicator  : 'meh'
                     }
                 ],
-                decorationImage: './images/Coopsacr/ms/sprint6_to7.jpg'
+                decorationImage: './images/FLY/gd10.png'
+            },
+            {
+                title : 'Sound Designers',
+                indicators: {
+                    global : 'good'
+                },
+                tasks : [
+                    {
+                        name       : 'Wwise integration',
+                        completion : 0.3,
+                        indicator  : 'bad'
+                    },
+                    {
+                        name       : 'Musics',
+                        completion : 0.6,
+                        indicator  : 'good'
+                    },
+                    {
+                        name       : 'Sounds effects',
+                        completion : 0.5,
+                        indicator  : 'good'
+                    },
+                    {
+                        name       : 'Mix',
+                        completion : 0.4,
+                        indicator  : 'good'
+                    }
+                ],
+                decorationImage: './images/placeholders/sounddesign.jpg'
             }
         ]
     }

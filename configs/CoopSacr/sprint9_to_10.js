@@ -4,8 +4,8 @@ define([
 
     return {
         projectName    : 'Coopsacr',
-        reportIndex    : '9 - half',
-        reportDay      : new Date(2017, 1, 13),
+        reportIndex    : '9 to 10',
+        reportDay      : new Date(2017, 1, 20),
         sprintDuration : 14,
         calendar       : [
             {
@@ -89,6 +89,10 @@ define([
                 {
                     date       : new Date(2017, 1, 13),
                     donePoints : 37.9
+                },
+                {
+                    date       : new Date(2017, 1, 20),
+                    donePoints : 41.4
                 }
             ]
         },
@@ -96,45 +100,42 @@ define([
 
         main: {
             bigNews : [
+                'Dog enemy modelisation',
+                'Humanoid enemy modelisation',
+                'All hero main animations'
             ],
 
             indicators : {
                 global   : 'good',
                 morals   : 'good',
                 quality  : 'good',
-                planning : 'bad'
+                planning : 'meh'
             },
 
             tasks : [
                 {
                     name       : 'Hero',
-                    completion : 0.65,
+                    completion : 0.62,
                     indicator  : 'good'
                 },
                 {
                     name       : 'Enemies',
-                    completion : 0.30,
+                    completion : 0.43,
                     indicator  : 'meh'
                 },
                 {
                     name       : 'Level design',
-                    completion : 0.5,
+                    completion : 0.21,
                     indicator  : 'meh'
                 },
                 {
                     name       : 'Camera',
-                    completion : 0.55,
+                    completion : 0.56,
                     indicator  : 'meh'
                 }
             ],
 
             risks : [
-                {
-                    name        : 'Network',
-                    probability : 'Very high',
-                    gravity     : 'High',
-                    solution    : 'Use UE template. Minimize features which impact network'
-                },
                 {
                     name        : 'Git + unreal',
                     probability : "High",
@@ -146,6 +147,12 @@ define([
                     probability : "High",
                     gravity     : "High",
                     solution    : 'Pipeline anticipation'
+                },
+                {
+                    name        : 'Annoying sacrifices',
+                    probability : 'Low',
+                    gravity     : 'Very high',
+                    solution    : 'Lot of tests'
                 }
             ]
         },
@@ -160,26 +167,26 @@ define([
                 tasks : [
                     {
                         name       : 'Hero animations',
-                        completion : 0.80,
+                        completion : 0.965,
+                        indicator  : 'good'
+                    },
+                    {
+                        name       : 'Dog retopo',
+                        completion : 0.1,
+                        indicator  : 'good'
+                    },
+                    {
+                        name       : 'Humanoid setup',
+                        completion : 0,
+                        indicator  : 'good'
+                    },
+                    {
+                        name       : 'All environments',
+                        completion : 0.08,
                         indicator  : 'meh'
-                    },
-                    {
-                        name       : 'Dog Enemies concept',
-                        completion : 1,
-                        indicator  : 'good'
-                    },
-                    {
-                        name       : 'Humanoid enemies modelisation',
-                        completion : 0.90,
-                        indicator  : 'good'
-                    },
-                    {
-                        name       : 'Garden environments',
-                        completion : 0.8,
-                        indicator  : 'good'
                     }
                 ],
-                decorationImage: './images/Coopsacr/art8to9.jpg'
+                decorationImage: './images/Coopsacr/art10.jpg'
             },
             {
                 title : 'Programmers',
@@ -194,18 +201,18 @@ define([
                     },
                     {
                         name       : 'Camera',
-                        completion : 0.75,
+                        completion : 0.60,
                         indicator  : 'meh'
                     },
                     {
                         name       : 'Network',
-                        completion : 0.75,
+                        completion : 0.90,
                         indicator  : 'good'
                     },
                     {
-                        name       : 'Gameflow',
-                        completion : 0.90,
-                        indicator  : 'good'
+                        name       : 'Polish/integration',
+                        completion : 0.05,
+                        indicator  : 'bad'
                     }
                 ],
                 decorationImage: './images/Coopsacr/prog6to7.png'
@@ -217,23 +224,23 @@ define([
                 },
                 tasks : [
                     {
-                        name       : 'Scenarisation',
+                        name       : 'V3 Level design in UE',
+                        completion : 0.9,
+                        indicator  : 'meh'
+                    },
+                    {
+                        name       : 'Balancing',
                         completion : 0,
                         indicator  : 'meh'
                     },
                     {
-                        name       : 'Sacrifice mechanics',
-                        completion : 1,
-                        indicator  : 'good'
+                        name       : 'FTUE',
+                        completion : 0.05,
+                        indicator  : 'meh'
                     },
                     {
-                        name       : 'Sacrifice justifications',
-                        completion : 1,
-                        indicator  : 'good'
-                    },
-                    {
-                        name       : 'V3 Level design in UE',
-                        completion : 0.2,
+                        name       : 'Scenarisation',
+                        completion : 0,
                         indicator  : 'meh'
                     }
                 ],
@@ -242,7 +249,7 @@ define([
             {
                 title : 'Sound Designers',
                 indicators: {
-                    global : 'meh'
+                    global : 'good'
                 },
                 tasks : [
                     {
@@ -252,12 +259,12 @@ define([
                     },
                     {
                         name       : 'Musics',
-                        completion : 0.25,
-                        indicator  : 'bad'
+                        completion : 0.7,
+                        indicator  : 'meh'
                     },
                     {
                         name       : 'Sounds effects',
-                        completion : 0.05,
+                        completion : 0.1,
                         indicator  : 'meh'
                     },
                     {
