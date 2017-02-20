@@ -96,7 +96,7 @@ define([
                 },
                 {
                     date       : new Date(2017, 1, 20),
-                    donePoints : 41.4
+                    donePoints : 41.40
                 }
             ]
         },
