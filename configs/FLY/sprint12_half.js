@@ -115,7 +115,7 @@ define([
                     donePoints : 52.9
                 },
                 {
-                    date       : new Date(2017, 2, 20),
+                    date       : new Date(2017, 2, 27),
                     donePoints : 53.6
                 }
             ]
