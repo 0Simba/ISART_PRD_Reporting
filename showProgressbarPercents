@@ -1,0 +1,4 @@
+$('.progress-bar.progress-bar-success').each(function(element) {
+	var value = Math.round(($(this).width() / 140) * 100) / 100;
+	$(this).append(value)
+});
