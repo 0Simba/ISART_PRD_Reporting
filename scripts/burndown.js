@@ -36,7 +36,7 @@ define([
         return yRange(d.y);
     })
 
-    lineFunc.interpolate('basis');
+    lineFunc.interpolate();
 
 
     function setChartValues () {
